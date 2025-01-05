@@ -2,25 +2,22 @@
 layout: about 
 ---
 
-# About Me
-There is no specific format here. You can fill out the form you want.  
-For example, you might want to write a brief introduction about your self, experience, interests, publications, and other information.  
-I wrote "about me", "career", and "interests" on this page as an example.  
+# About Me  
+
+I am a senior Software Engineering student at Drexel University, graduating in June 2025. Through co-ops at JPMorgan Chase & Co. and Susquehanna International Group, I’ve gained hands-on experience building APIs, optimizing data pipelines, and developing web applications.  
+
+I am passionate about problem-solving and look forward to employing these skills in whatever challenges the future brings. Currently, I am seeking full-time software engineering opportunities starting in the summer of 2025.
 
 <br/>
 
-# Career
-* Second Company (2012/01 ~ )
-  * Web Application Firewall
-    * Developed TCP network acceleration module.
-    * Developde Application User Interface.
-* First Company (2011/01 ~ 2011/12)
-  * VPN Development Company
-  * Team Leader of VPN Development Div.
+# Experience
+
+- **Software Developer Co-op @ Susquehanna International Group**  
+Apr. 2024 - Sep. 2024  
+Bala-Cynwyd, Pennsylvania, United States
+
+- **Software Developer Co-op @ JPMorgan Chase & Co.**  
+Apr. 2023 - Sep. 2023  
+Newark, Delaware, United States
 
 <br/>
-
-# Interests
-I am interested in technology trends.  
-I'm not afraid to learn languages, but I enjoy using Python.  
-I like to automate and reduce annoying things.  
