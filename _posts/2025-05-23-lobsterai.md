@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Lobster AI"
-info: "Manuscript generation using AI/ML"
+description: "AI/ML-powered tool to generate research manuscripts from drug trial protocols."
 tech: "Python, AWS S3, AWS Lambda, AWS SageMaker, AWS Textract"
-type: AI/ML Research Project
 ---
 ![Manuscript generation using AI/ML]({{ site.baseurl }}/assets/img/projects/lobsterai.jpg)
 

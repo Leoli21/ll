@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Stock Portfolio Management System"
-info: "Stcok Trading/Portfolio Web Application"
+description: "A full-stack web app for managing stock portfolios and algorithmic trading."
 tech: "JavaScript, Node.js, Express.js, PostgreSQL, HTML, CSS"
-type: Full Stack Web Application
 ---
 ![Stock Portfolio Management System]({{ site.baseurl }}/assets/img/projects/stock-portfolio.jpg)
 

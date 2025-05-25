@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "K-Pop Playlist Automation"
-info: "Python CLI for Playlist Automation"
+description: "A Python CLI tool that scrapes music charts and automates Spotify playlist creation."
 tech: "Python, BeautifulSoup4, Selenium WebDriver, Spotipy"
-type: CLI Tool
 ---
 ![K-Pop Playlist Automation]({{ site.baseurl }}/assets/img/projects/spotify.jpg)
 
