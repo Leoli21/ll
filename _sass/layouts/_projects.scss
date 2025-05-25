@@ -1,11 +1,11 @@
-.portfolio-grid {
+.projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
   margin: 2rem 0;
 }
 
-.portfolio-card {
+.projects-card {
   display: block;
   background: #fff;
   border-radius: 14px;
@@ -23,7 +23,7 @@
   }
 }
 
-.portfolio-title {
+.projects-title {
   font-size: 1.35rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
@@ -32,18 +32,18 @@
   transition: color 0.18s;
 }
 
-.portfolio-card:hover .portfolio-title {
+.projects-card:hover .projects-title {
   color: #0078d4;
 }
 
-.portfolio-description {
+.projects-description {
   font-size: 1rem;
   color: #666;
   margin-bottom: 1rem;
   line-height: 1.5;
 }
 
-.portfolio-meta {
+.projects-meta {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
@@ -71,4 +71,39 @@
     font-size: 1em;
     opacity: 0.85;
   }
+}
+
+.projects-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 2.5rem 0 1rem 0;
+}
+
+.projects-pagination-btn {
+  display: inline-block;
+  padding: 0.45em 1.2em;
+  background: #f5f7fa;
+  color: #222 !important;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1rem;
+  border: none;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+  transition: background 0.18s, color 0.18s;
+  cursor: pointer;
+}
+.projects-pagination-btn:hover,
+.projects-pagination-btn:focus {
+  background: #e6f0fa;
+  color: #0078d4 !important;
+}
+
+.projects-pagination-page {
+  font-size: 1rem;
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 0.03em;
 }

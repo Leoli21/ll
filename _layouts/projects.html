@@ -1,0 +1,29 @@
+---
+layout: base 
+---
+
+<div class="projects-grid">
+  {% for post in paginator.posts %}
+    <a href="{{ post.url | prepend: site.baseurl }}" class="projects-card">
+      <div class="projects-card-content">
+        <h2 class="projects-title">{{ post.title }}</h2>
+        {% if post.description %}
+          <div class="projects-description">{{ post.description }}</div>
+        {% endif %}
+        <div class="projects-meta">
+          <span><i class="fa fa-cog"></i> {{ post.tech }}</span>
+        </div>
+      </div>
+    </a>
+  {% endfor %}
+</div>
+
+<div class="projects-pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="projects-pagination-btn">Prev</a>
+  {% endif %}
+  <span class="projects-pagination-page">Page {{ paginator.page }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="projects-pagination-btn">Next</a>
+  {% endif %}
+</div>
