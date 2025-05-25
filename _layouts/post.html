@@ -2,26 +2,28 @@
 layout: base 
 ---
 
-<div class="post-card">
-  <h1 class="post-title">{{ page.title }}</h1>
-  {% if page.tech %}
-    <div class="post-meta">
-      <span class="post-meta-label">Technologies:</span>
-      <span class="post-meta-tech">{{ page.tech }}</span>
-    </div>
-  {% endif %}
-  <div class="post-line"></div>
-  <div class="post-content">
-    {{ content }}
+<div class="post-navigation-wrapper">
+  <div class="pagination-arrow pagination-arrow-left">
+    {% if page.next.url %}
+      <a href="{{ page.next.url | prepend: site.baseurl }}" class="pagination-btn" title="Previous Project">&#8592;</a>
+    {% endif %}
   </div>
-</div>
-
-<div class="pagination">
-  {% if page.next.url %}
-    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left next">Prev</a>
-  {% endif %}
-  {% if page.previous.url %}
-    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right next">Next</a>
-  {% endif %}
-  <a href="#" class="top">Top</a>
+  <div class="post-card">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.tech %}
+      <div class="post-meta">
+        <span class="post-meta-label">Technologies:</span>
+        <span class="post-meta-tech">{{ page.tech }}</span>
+      </div>
+    {% endif %}
+    <div class="post-content">
+      <div class="post-line"></div>
+      {{ content }}
+    </div>
+  </div>
+  <div class="pagination-arrow pagination-arrow-right">
+    {% if page.previous.url %}
+      <a href="{{ page.previous.url | prepend: site.baseurl }}" class="pagination-btn" title="Next Project">&#8594;</a>
+    {% endif %}
+  </div>
 </div>

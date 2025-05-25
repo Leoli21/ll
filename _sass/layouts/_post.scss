@@ -1,11 +1,48 @@
 $post-font: 'Segoe UI', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
 
+.post-navigation-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 3rem 0 2rem 0;
+}
+
+.pagination-arrow {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.pagination-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: #f5f7fa;
+  color: #222 !important;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+  transition: background 0.18s, color 0.18s;
+}
+.pagination-btn:hover,
+.pagination-btn:focus {
+  background: #e6f0fa;
+  color: #0078d4 !important;
+}
+
 .post-card {
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 4px 24px rgba(0,0,0,0.08);
   padding: 2.5rem 2rem 2rem 2rem;
-  margin: 3rem auto 2rem auto;
+  margin: 0 auto;
   max-width: 650px;
   width: 100%;
   font-family: $post-font;
@@ -45,12 +82,6 @@ $post-font: 'Segoe UI', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
   padding: 0.2em 0.6em;
 }
 
-.post-line {
-  border-bottom: 2px solid #e0e0e0;
-  margin: 0 auto 2rem auto;
-  width: 60px;
-}
-
 .post-content {
   font-size: 1.08rem;
   color: #222;
@@ -58,6 +89,12 @@ $post-font: 'Segoe UI', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
   margin: 0 auto;
   max-width: 600px;
   font-family: $post-font;
+}
+
+.post-line {
+  border-bottom: 2px solid #e0e0e0;
+  margin: 0 auto 2rem auto;
+  width: 100%;
 }
 
 .post-content img {
