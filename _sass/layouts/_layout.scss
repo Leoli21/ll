@@ -66,6 +66,16 @@ footer,
   }
 }
 
+.nav a.active {
+  color: #222;
+  border-bottom: 2px solid #0078d4;
+  font-weight: 600;
+  opacity: 1;
+  text-decoration: none;
+  padding-bottom: 2px;
+  transition: border-bottom 0.2s;
+}
+
 @media (min-width: 600px) {
   .nav {
     &-container {
