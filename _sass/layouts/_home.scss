@@ -1,4 +1,8 @@
 .about {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
+  font-size: 1rem;
+  color: #222;
+
   .profile {
     text-align: center;
     margin-top: 3%;
@@ -34,4 +38,30 @@
   &-icon-text {
     margin-left: 0.8rem;
   }
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  margin-bottom: 2em;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+.experience-item {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.company-logo {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #eee;
+  margin-right: 1em;
 }
